@@ -1,13 +1,16 @@
-##################################################
+##########################################################################
 # SPARK DEVELOPMENT & ADMINISTRATION
-# Spark Installation & basic configuration
-# Jupyter Installation & Secure mode configuration
+#
+# Following Installation of componenet have been carried out on Ubunutu OS
+# 
+#  - Spark Installation & basic configuration
+#  - Jupyter Installation & Secure mode configuration
 #
 #
-####################################################
+###########################################################################
 
 
-Download and Isntall Spark
+Download and Install Spark
 --------------------------
 # update the repository
 sudo apt-get update -y
