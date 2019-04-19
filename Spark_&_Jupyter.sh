@@ -82,6 +82,6 @@ jupyter notebook --ip='0.0.0.0' --certfile='/home/shehzad/certs/jupyter.pem'
 -------------------------------
 # import pyspark module
 import findspark
-findspar.ini('/usr/local/spark/current/')
+findspark.ini('/usr/local/spark/current/')
 
 import pyspark
