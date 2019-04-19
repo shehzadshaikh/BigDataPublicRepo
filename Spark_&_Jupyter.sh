@@ -53,7 +53,7 @@ pip3 install findspark
 jupyter notebook --generate-config
 
 # creating certificate
-mkdir certs && cd certs
+mkdir ~/certs && cd ~/certs
 
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout jupyter.pem -out jupyter.pem
 
