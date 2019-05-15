@@ -21,7 +21,7 @@ service ntpd restart
 chkconfig iptables off
 chkconfig ip6tables off
 
-# startup scrit for rhel/centos7
+# startup script for rhel/centos7
 #-------------------------------
 
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/' /etc/selinux/config
@@ -44,7 +44,6 @@ sysctl -p
 
 
 # Necessary packages required on hosts
-
 # RHEL/CentOS/Oracle Linux
 yum and rpm
 scp, curl, unzip, tar, and wget
