@@ -144,7 +144,7 @@ reboot
 # startup script makesure to change the FQDN to desire name
 
 #!/bin/bash
-FQDN=cdh01.nxtbigthing.com
+FQDN=$(hostname).nxtbigthing.com
 
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/' /etc/selinux/config
 setenforce 0
